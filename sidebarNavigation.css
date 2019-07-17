@@ -1,0 +1,1336 @@
+/*body{position:relative;}.overlay,*/
+.sideMenu{position:fixed;bottom:0}
+.overlay{top:0;left:0;opacity:0;right:0%;margin:auto;background-color:rgba(0, 0, 0, 0.525);z-index:998;transition:all ease .4s}
+
+.sideMenu,.sidebarNavigation{z-index:999;margin-bottom:0}
+
+.overlay.open{left:0;right:0;opacity:1}
+
+.sidebarNavigation .left-navbar-toggle{float:right;margin-right:0;margin-left:15px}
+
+.sideMenu{right:-50%;top:59px;transition:all ease-in-out .25s;overflow:hidden;width:100%;max-width:50%}
+
+.sideMenu.open{right:0;display:block;overflow-y:auto}
+
+.sideMenu ul{margin:0}
+
+.jumbotron{
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #00caff calc(-5% - 100px),transparent 39%), linear-gradient(-134deg, #c115c1 calc(5% - 100px),transparent 40%);
+  z-index:1;
+  margin-top: -15px;
+  opacity: 1;
+  padding-bottom: 8px;
+  border-bottom: #00bae5 2px solid;
+}
+
+.Modo{
+  background: #ffffff;
+  color: black;
+  margin-top: 60px;
+  padding: 15px;
+  border: 10px solid #0b0124;
+}
+
+.BatCave{
+  background: #ffffff;
+  color: black;
+  margin-top: 60px;
+  padding: 15px;
+  border: 10px solid #0b0124;
+}
+
+.logohome{
+  height: 130px;
+  margin-top: 110px;
+}
+
+.current-about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  padding: 10px 15px;
+  text-decoration-line: underline;
+}
+
+#logo{
+  color:white;
+  height:24px;
+  margin-top: 5px;
+  margin-left: 4px;
+  margin-right: -15px;
+  height: 30px;
+}
+
+#BluLogo{
+  height:30px;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+.video-overlay{
+  width:100%;
+  height:100vh;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #00caff calc(-5% - 100px),transparent 39%), linear-gradient(-134deg, #750462 calc(5% - 100px),transparent 40%);
+  position:absolute;
+  z-index:1;
+  opacity: 0.75;
+}
+
+.banner{
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.banner video{
+  position:absolute;
+  top:0;
+  left:0;
+  object-fit:cover;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+}
+
+.banner .HomeHeader{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding-bottom: 0px;
+  padding-top: 80px;
+  font-size: 46px;
+  position:relative;
+  z-index:1;
+  margin-bottom: 0px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.banner .content{
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  letter-spacing: 1.25px;
+  padding-top: 0px;
+  margin-top: -20px;
+}
+
+.banner .ViewProjects{
+  border: 2px solid white;
+  background: none;
+  color:white;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+.SkillsHeader{
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  letter-spacing: 1.25px;
+  padding-top: 0px;
+  margin-top: -20px;
+  margin-top: 10px;
+}
+
+.me{
+  margin-top: 90px;
+  margin-bottom: -162px;
+  height:155px;
+  border-radius: 50%;
+  border: #00bae5 solid 2px;
+}
+
+.display-3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding-top: 44px;
+  margin-bottom: 10px;
+}
+
+.lead{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -9px;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.nav{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.nav>li{
+    padding-top:8px;
+}
+
+.navbar-brand{
+  line-height: 25px;
+  margin-bottom: -16px;
+  margin-top:-8px;
+}
+
+.DemoTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: -26px;
+}
+
+.navbar-inverse{
+    border-bottom: none;
+    background-color: #0b0124
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+    background-color:#23282d
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    transition-duration: 350ms;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: rgb(122, 122, 122);
+}
+
+.nav>li>a:hover{
+  background-color: #a7303000;
+}
+
+a:hover{
+  color:white;
+}
+
+body{
+    background-color:#0b0124 !important;
+    color: white;
+}
+
+p{
+  letter-spacing: .8px;
+}
+
+.ProjectHeader{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.JRod {
+    color: white;
+  }
+  
+.JRod:hover {
+  color:#a3fcff ;
+}
+
+.player{
+  margin-top: 40px;
+}
+  
+.fire{
+  height: 200px;
+  margin-bottom: -5px;
+}
+
+  /*Mobile navigation*/
+#demoreel{
+  margin-top: 60px;
+}
+  
+.uxui{
+  color:white;
+  margin-left: 73px;
+  margin-top: 27px;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1.25px;
+}
+  
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.current-home{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 32px;
+  line-height: 37px;
+  padding: 0.55rem 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.current-home::after {
+  content: '';
+  height: 1.5px;
+  width: 80%;
+  left: 10%;
+  bottom: 12px;
+  margin-bottom: -.5px;
+  background: #00bae5;
+  position: absolute;
+}
+
+.current-projects{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 32px;
+  line-height: 37px;
+  padding: 0.55rem 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.current-projects::after {
+  content: '';
+  height: 1.5px;
+  width: 83%;
+  left: 8%;
+  bottom: 12px;
+  margin-bottom: -.5px;
+  background: #00bae5;
+  position: absolute;
+}
+
+.navbar-nav {
+  text-align: end;
+  margin-right: 10px;
+  color: white;
+  line-height: 18px;
+  margin-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: white;
+  margin-left: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: none;
+  color: rgb(215, 11, 188);
+}
+
+.nav-link {
+  padding: 0.85rem 1rem;
+}
+
+.bg-light {
+  background-color: #0b0124 !important;
+  border-bottom: 2px solid #00bae5;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
+.current{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  padding: 1rem 1.75rem;
+  padding-right: 15px;
+  padding-left: 0px;
+  text-decoration-line: underline;
+}
+
+/*Hamburger menu animation*/
+
+#wrapper {
+  background-color: none;
+  display: inline-block;
+  border-radius: 500px;
+  margin: -11px;
+  margin-left: -60px;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+}
+
+#wrapper:focus {
+  outline: none;
+}
+
+#wrapper:focus-within {
+  outline: none;
+}
+
+#wrapper:active {
+  outline: none;
+}
+
+.circle {
+  width: 48px;
+  height: 30px;
+  position: relative;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.circle:focus {
+  outline: none;
+}
+
+.circle:active {
+  outline: none;
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  margin-top: 4px;
+  width: 64%;
+  background: white;
+  border-radius: 0px;
+  transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
+}
+
+.top {
+  top: 18%;
+  height: 2.5px;
+}
+
+.middle {
+  top: 48%;
+  height:2.5px;
+}
+
+.bottom {
+  top: 78%;
+  height:2.5px;
+}
+
+.icon.close .top {
+  transform: rotate(45deg);
+  top: 48%;
+}
+
+.icon.close .middle,
+.icon.close .bottom {
+  transform: rotate(-45deg);
+  top: 48%;
+}
+
+.close {
+  opacity: 1;
+}
+
+.close:not(:disabled):not(.disabled):focus,
+.close:not(:disabled):not(.disabled):hover {
+  opacity: 1;
+}
+
+/*---end of Hamburger info---*/
+
+#footercolor{
+  background-color:#414763;
+}
+
+.row{
+  padding-bottom: 90px;
+}
+
+.Header{
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.BrandStatement{
+  background: #0b0124;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  line-height: 21px;
+  letter-spacing: .5px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.ProjectsHeader{
+  background: #0b0124;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  line-height: 21px;
+  letter-spacing: .5px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/* iphoneX */
+@media (max-width: 576px) {
+  .banner .HomeHeader{
+     font-size: 42px;
+   }
+
+   .banner .content{
+    font-size: 30px;
+  }
+
+}
+
+  /* Desktop navigation Everything Centered */
+
+@media (min-width: 576px) {
+  #demoreel{
+    margin-top: 51px;
+  }
+
+  .banner .HomeHeader{
+    font-size: 46px;
+  }
+
+  .TexasStateBold{
+    font-weight: bold;
+    margin-top: 70px;
+    letter-spacing: .9px;
+  }
+
+  .UTBold{
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron{
+    margin-top: 0px;
+  }
+
+  .banner .HomeHeader{
+    font-size: 78px;
+    padding-top: 170px;
+  }
+
+  .banner .ViewProjects{
+    border: 2px solid white;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .ProjectList .GoTo{
+    border: 2px solid black;
+    color:black;
+    background: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .jumbotron h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    padding-top: 95px;
+    color: white;
+  }
+
+  .jumbotron p{
+    margin-top:-10px;
+    margin-bottom: 5px;
+    color:white;
+  }
+
+  .profile-container{
+    margin-bottom:-168px;
+  }
+
+  .fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .display-3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 0px;
+  }
+
+  .navbar{
+      border-radius: 0px;
+  }
+
+  .navbar-nav{
+    float:right;
+    margin-right: -10px;
+  }
+
+  .navbar-brand{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height:21px;
+  margin-top: -10px;
+  }
+
+  .me{
+    margin-top: 40px;
+    margin-bottom: 90px;
+    height:200px;
+    border-radius: 50%;
+    border: #00bae5 solid 3px;
+  }
+
+  .Brains{
+    margin-top: 80px;
+    text-align: center;
+    display: none;
+  }
+  
+  .BrainSkills{
+    margin: 100px auto;
+    margin-top: 80px;
+    text-align: center;
+    display: none;
+  }
+
+  .BrainSkillsMobile{
+    display: block;
+  }
+
+  .lead{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color:#414763;
+  }
+
+  .uxui{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color:white;
+    margin-left: 58px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    letter-spacing: .75px;
+  }
+
+  #logo{
+    color:white;
+    height:24px;
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-right: 0px;
+    height: 30px;
+  }
+
+  #Layer_2{
+    height:44px;
+    margin-right: 2px;
+    margin-bottom: -65px;
+  }
+
+  #dev{
+    height: 44px;
+  }
+
+  #Bolt{
+    height:44px;
+    margin-left: -62px;
+    margin-bottom: -65px;
+  }
+
+  #HourGlass{
+    height:41px;
+    margin-left: -56px;
+    margin-bottom: -61px;
+
+  }
+
+  .Trophy{
+    height:43px;
+    margin-bottom: -14px;
+  }
+
+  #LightBlue{
+    color:#a3fcff;
+  }
+
+  .RightBrain{
+    height:540px;
+    margin-left: -70px;
+    margin-top: 10px;
+  }
+
+  .LeftBrain{
+    height:540px;
+    margin-right: -70px;
+  }
+
+  #Education{
+    height:35px;
+    margin-left: -65px;
+    padding-right: 22px;
+    margin-bottom: -13px;
+  }
+
+  .Header{
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align:left;
+    margin-bottom: 90px;
+  }
+
+  .Header::after{
+    content:'';
+    height: 2.5px;
+    width: 100%;
+    left: 0;
+    bottom: -9px;
+    background: #cf1481;
+    position: absolute;
+  }
+
+  .ColorCont{
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .content{
+    padding-top: 0px;
+    letter-spacing: .8px;
+  }
+
+  .CBIBold{
+    font-weight: bold;
+    margin-bottom: -30px;
+    letter-spacing: .9px;
+  }
+
+  .AnaxosBold{
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    letter-spacing: .9px;
+  }
+
+  .content-bold-margin{
+    font-weight: bold;
+    margin-top: 40px;
+    letter-spacing: .9px;
+  }
+
+  #sticky-footer {
+    flex-shrink: none;
+    background-color: rgb(18, 18, 18);
+    color:white;
+    padding-top: 180px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .AtomMolOrg{
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 21px;
+    margin-top: -10px;
+  }
+
+  #logo{
+    color: white;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: 14px;
+    height: 30px;
+  }
+
+  .BrandStatement{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-left: 0px transparent;
+    border-top: 0px transparent;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(65deg,darkmagenta,#00caff,#f0f,#1b1731,#1b1731,#1b1731);
+    border-image-slice: 4;
+  }
+
+  .ProjectsHeader{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-left: 0px transparent;
+    border-top: 0px transparent;
+    border-bottom: 1px solid transparent;
+  }
+
+
+  .Header{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .Header::after{
+    content:'';
+    height: 2.5px;
+    width: 100%;
+    left: 0;
+    bottom: -9px;
+    background: #cf1481;
+    position: absolute;
+  }
+
+  .Brains{
+    margin-top: 60px;
+  }
+
+  .BrainSkills{
+    display: none;
+  }
+
+  .BrainSkillsMobile{
+    height: 680px;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .CBIBold{
+    font-weight: bold;
+  }
+
+  .AnaxosBold{
+    font-weight: bold;
+    margin-top: 60px;
+  }
+
+  .current-about{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 32px;
+    line-height: 37px;
+    padding: 0.55rem 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+  }
+
+  .current-about::after {
+    content: '';
+    height: 1.5px;
+    width: 80%;
+    left: 10%;
+    bottom: 12px;
+    margin-bottom: -.5px;
+    background: #00bae5;
+    position: absolute;
+  }
+
+  #sticky-footer{
+    background: rgb(18, 18, 18);
+    padding-bottom: 10px;
+    padding-top: 100px;
+  }
+
+  .TexasStateBold{
+    font-weight: bold;
+    margin-top: 60px;
+  }
+
+  .UTBold{
+    font-weight: bold;
+  }
+}
+
+/*-----Tablet-----*/
+@media (min-width: 768px) {
+.navbar-light .navbar-nav .nav-link::after{
+  content:'';
+  display: block;
+  width:0;
+  height:2px;
+  background: #00bae5;
+  transition:width .25s;
+  margin-bottom: -2px;
+  transition-duration: 350ms;
+}
+
+.lead{
+  padding-bottom: 10px;
+}
+
+.me{
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+.ProjectHeader{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  border-bottom: none;
+  color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+  color:white;  
+  width:100%;
+  transition: width .25s;
+  margin-bottom: -2px;
+}
+
+.display-3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 0px;
+  padding-top: 90px;
+  margin-bottom: -8px;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+  border-bottom: none;
+  color: rgb(255, 255, 255);
+}    
+
+.navbar-light .navbar-nav .nav-link:active::after{
+  color:white;  
+  width:100%;
+  transition: width 0s;
+  margin-bottom: -2px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgb(255, 255, 255);
+  margin-bottom: -2px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus::after{
+    color:white;  
+    width:100%;
+    transition: width 0s;
+    margin-bottom: -2px;
+}
+
+.BrandStatement{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-left: 0px transparent;
+  border-top: 0px transparent;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(65deg,#1b1731,darkmagenta,#00caff,#f0f,#1b1731,#1b1731);
+  border-image-slice: 4;
+  margin-top: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  background: #0b0124;
+  color: white;
+  text-align: center;
+  letter-spacing: .5px;
+}
+
+.ProjectsHeader{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-left: 0px transparent;
+  border-top: 0px transparent;
+  border-bottom: 1px solid transparent;
+  margin-top: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  background: #0b0124;
+  color: white;
+  letter-spacing: .5px;
+}
+
+.ProjectList{
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.Header{
+  text-align: left;
+}
+
+.Brains{
+  margin-top: 80px;
+  text-align: center;
+  display: block;
+}
+
+.BrainSkills{
+  margin: 100px auto;
+  display: block;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+.BrainSkillsMobile{
+  margin: 100px auto;
+  height: 850px;
+  display: none;
+  text-align: center;
+}
+
+.AtomMolOrg{
+  margin: 80px auto;
+  display: block;
+  height: 110px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.UXSkills{
+  height:375px;
+}
+
+.DevSkills{
+  height:375px;
+  margin-top: 10px;
+}
+
+#Education{
+  height:44px;
+  margin-left: -8px;
+  margin-bottom: -108px;
+}
+
+#HourGlass{
+  height:44px;
+  margin-left: -8px;
+  margin-bottom: -108px;
+}
+
+.content{
+  padding-top: 45px;
+}
+
+.current{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color:rgb(255, 255, 255);
+    display:inline-block;
+    position:relative;
+    margin-right: 0px;
+    line-height: 37px;
+    padding:0.55rem 1rem;
+    padding-left: .5rem;
+    padding-right: 1.5rem;
+    background-color: none;
+    text-decoration-line: none;
+}
+
+.current:hover{
+    color:white;
+}
+
+.current::after{
+    content:'';
+    height:1.5px;
+    width:66%;
+    left:9%;
+    bottom:12px;
+    margin-bottom: -.5px;
+    background:#00bae5;
+    position:absolute;
+}
+
+.current-about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color:rgb(255, 255, 255);
+  display:inline-block;
+  position:relative;
+  margin-right: 10px;
+  margin-left: 32px;
+  line-height: 37px;
+  padding:0.55rem 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color:rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.current-about::after{
+  content:'';
+  height:1.5px;
+  width:80%;
+  left:10%;
+  bottom:12px;
+  margin-bottom: -.5px;
+  background:#00bae5;
+  position:absolute;
+  background-color: none;
+}
+
+.current-home{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 32px;
+  line-height: 37px;
+  padding: 0.55rem 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.current-home::after {
+  content: '';
+  height: 1.5px;
+  width: 80%;
+  left: 10%;
+  bottom: 12px;
+  margin-bottom: -.5px;
+  background: #00bae5;
+  position: absolute;
+}
+
+
+@media (min-width: 768px) {
+  .nav-link {
+    padding: 0.55rem 1rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-top: -9px;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
+
+/*-----XL Desktop------*/
+@media (min-width: 990px) {
+  .navbar-header{
+    display: block!important;
+  }
+
+  .ProjectHeader{
+    font-family: 'Open Sans', sans-serif; 
+    margin-top: 10px;
+    margin-bottom: -2px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .UTBold{
+    margin-top: 40px;
+    padding-right: 20px;
+  }
+
+  .UTContent{
+    padding-right: 20px;
+  }
+
+  .TexasStateBold{
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+
+  .TexasStateContent{
+    padding-left: 20px;
+  }
+
+  .display-3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 0px;
+  }
+
+  .me{
+    margin-bottom: 10px;
+  }
+
+  .BrandStatement{
+    font-size: 20px;
+    background: #0b0124;
+    font-weight: 300px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 90px;
+    margin-top: 0px;
+    padding-bottom: 90px;
+    text-align: left;
+  }
+  
+  .ProjectsHeader{
+    font-size: 20px;
+    background: #0b0124;
+    font-weight: 300px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 90px;
+    margin-top: 0px;
+    padding-bottom: 90px;
+    text-align: left;
+  }
+
+    #Bolt{
+    height:38px;
+    margin-left: -74px;
+    margin-right: 15px;
+    margin-bottom: -13px;
+  }
+
+  #HourGlass{
+    height:34px;
+    margin-left: -69px;
+    margin-right: 15px;
+    margin-bottom: -10px;
+  }
+
+  #Education{
+    height:32px;
+    margin-left: -85px;
+    margin-right: -3px;
+    margin-bottom: -13px;
+  }
+
+  .content{
+    padding-top: 0px;
+  }
+
+  .Header{
+    text-align: left;
+  }
+
+  .CBIBold{
+    margin-bottom: 10px;
+  }
+
+  .AnaxosBold{
+    margin-bottom: 10px;
+    margin-top: 90px;
+  }
+
+}
+
+@media (min-width: 1240px) {
+  .Brains{
+    display: block;
+    text-align: center;
+    height: 320px;
+    margin: 100px auto;
+    margin-bottom: 10px;
+  }
+
+  .ProjectList{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .BrainSkills{
+    height: 375px;
+  }
+}
